@@ -1,0 +1,107 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: URL("images/stavanger.jpg");
+  height: 400px;
+  background-size: cover;
+  color: #a8dadc;
+  text-shadow: 0px 0px 2px black;
+}
+
+.tekstbakgrunn {
+  background-color: #1d3557;
+  padding: 0px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.bredde {
+  width: 100px;
+}
+
+.hoyde {
+  height: 25px;
+}
+
+.hovedbilder {
+  height: 66px;
+  border-radius: 30%;
+  margin-bottom: 10px;
+}
+
+.hovedbilder:hover {
+  height: 75px;
+  margin: 0 -5px 1px;
+}
+
+#aktiviteter {
+  background: radial-gradient(circle at center, #f1faee 0, #457b9d 100%);
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  height: 250px;
+}
+
+.bilder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.overskrifter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.undertekst {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3,
+h4 {
+  color: #1d3557;
+}
+
+#bunn {
+  background-color: #a8dadc;
+  padding: 10px;
+}
+
+#card {
+  display: flex;
+  width: 380px;
+  margin: 20px auto;
+  background-color: #457b9d;
+  border: 5px solid #1d3557;
+  border-radius: 15px;
+  color: #a8dadc;
+  justify-content: center;
+  align-items: center;
+}
+
+#author {
+  border-radius: 40%;
+  height: 100px;
+  margin: 10px;
+}
+
+#omtale {
+  width: 250px;
+  text-shadow: 0px 0px 2px black;
+}
